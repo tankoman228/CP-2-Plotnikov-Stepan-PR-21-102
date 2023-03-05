@@ -1,0 +1,857 @@
+D:\Projects\Cocos\Fef\G>cocos deploy -p android
+Building mode: debug
+Using Android Studio project : D:\Projects\Cocos\Fef\G\proj.android
+Building apk...
+running: '"D:\Projects\Cocos\Fef\G\proj.android\gradlew.bat" --parallel --info assembleDebug -PPROP_BUILD_TYPE=cmake'
+
+Initialized native services in: C:\Users\Admin\.gradle\native
+Found daemon DaemonInfo{pid=21012, address=[5a19af78-0415-4128-8763-4810fbdf1a79 port:52175, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1677129794309, context=DefaultDaemonContext[uid=ac6fd842-79ae-4e06-bf11-3187c28cba46,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Admin\.gradle\daemon,pid=21012,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1251,-Duser.country=RU,-Duser.language=ru,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot,daemonRegistryDir=C:\Users\Admin\.gradle\daemon,pid=13104,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1251,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+Actual: DefaultDaemonContext[uid=ac6fd842-79ae-4e06-bf11-3187c28cba46,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Admin\.gradle\daemon,pid=21012,idleTimeout=10800000,priority=NORMAL,daemonOpts=-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,-Xms256m,-Xmx512m,-Dfile.encoding=windows-1251,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 19952). The daemon log file: C:\Users\Admin\.gradle\daemon\5.6.4\daemon-19952.out.log
+Starting 3rd build in daemon [uptime: 4 mins 43.963 secs, performance: 100%, non-heap usage: 33% of 268,4 MB]
+Using 6 worker leases.
+Invalidating in-memory cache of D:\Projects\Cocos\Fef\G\proj.android\.gradle\5.6.4\fileHashes\fileHashes.bin
+Starting Build
+Settings evaluated using settings file 'D:\Projects\Cocos\Fef\G\proj.android\settings.gradle'.
+Projects loaded. Root project using build file 'D:\Projects\Cocos\Fef\G\proj.android\build.gradle'.
+Included projects: [root project 'proj.android', project ':G', project ':libcocos2dx']
+
+> Configure project :
+Evaluating root project 'proj.android' using build file 'D:\Projects\Cocos\Fef\G\proj.android\build.gradle'.
+Invalidating in-memory cache of D:\Projects\Cocos\Fef\G\proj.android\.gradle\5.6.4\fileHashes\resourceHashesCache.bin
+
+> Configure project :G
+Evaluating project ':G' using build file 'D:\Projects\Cocos\Fef\G\proj.android\app\build.gradle'.
+Invalidating in-memory cache of D:\Projects\Cocos\Fef\G\proj.android\.gradle\buildOutputCleanup\outputFiles.bin
+Creating configuration androidTestUtil
+Creating configuration compile
+Creating configuration apk
+Creating configuration provided
+Creating configuration api
+Creating configuration implementation
+Creating configuration runtimeOnly
+Creating configuration compileOnly
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration androidTestCompile
+Creating configuration androidTestApk
+Creating configuration androidTestProvided
+Creating configuration androidTestApi
+Creating configuration androidTestImplementation
+Creating configuration androidTestRuntimeOnly
+Creating configuration androidTestCompileOnly
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration testCompile
+Creating configuration testApk
+Creating configuration testProvided
+Creating configuration testApi
+Creating configuration testImplementation
+Creating configuration testRuntimeOnly
+Creating configuration testCompileOnly
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration debugCompile
+Creating configuration debugApk
+Creating configuration debugProvided
+Creating configuration debugApi
+Creating configuration debugImplementation
+Creating configuration debugRuntimeOnly
+Creating configuration debugCompileOnly
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration androidTestDebugCompile
+Creating configuration androidTestDebugApk
+Creating configuration androidTestDebugProvided
+Creating configuration androidTestDebugApi
+Creating configuration androidTestDebugImplementation
+Creating configuration androidTestDebugRuntimeOnly
+Creating configuration androidTestDebugCompileOnly
+Creating configuration androidTestDebugWearApp
+Creating configuration androidTestDebugAnnotationProcessor
+Creating configuration testDebugCompile
+Creating configuration testDebugApk
+Creating configuration testDebugProvided
+Creating configuration testDebugApi
+Creating configuration testDebugImplementation
+Creating configuration testDebugRuntimeOnly
+Creating configuration testDebugCompileOnly
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration releaseCompile
+Creating configuration releaseApk
+Creating configuration releaseProvided
+Creating configuration releaseApi
+Creating configuration releaseImplementation
+Creating configuration releaseRuntimeOnly
+Creating configuration releaseCompileOnly
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration testReleaseCompile
+Creating configuration testReleaseApk
+Creating configuration testReleaseProvided
+Creating configuration testReleaseApi
+Creating configuration testReleaseImplementation
+Creating configuration testReleaseRuntimeOnly
+Creating configuration testReleaseCompileOnly
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Parsed shrinker version: 1.6.82
+android.ndkVersion from module build.gradle is not set
+ndk.dir in local.properties is C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e
+ANDROID_NDK_HOME environment variable is not set
+sdkFolder is C:\Users\Admin\AppData\Local\Android\Sdk
+Considering C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e by ndk.dir
+Considering C:\Users\Admin\AppData\Local\Android\Sdk\ndk-bundle in SDK ndk-bundle folder
+Considering C:\Users\Admin\AppData\Local\Android\Sdk\ndk\21.4.7075529 in SDK ndk folder
+Considering C:\Users\Admin\AppData\Local\Android\Sdk\ndk\25.2.9519653 in SDK ndk folder
+Found requested ndk.dir (C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e) which has version 21.4.7075529
+
+> Configure project :libcocos2dx
+Evaluating project ':libcocos2dx' using build file 'D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build.gradle'.
+Creating configuration androidTestUtil
+Creating configuration compile
+Creating configuration publish
+Creating configuration provided
+Creating configuration api
+Creating configuration implementation
+Creating configuration runtimeOnly
+Creating configuration compileOnly
+Creating configuration wearApp
+Creating configuration annotationProcessor
+Creating configuration androidTestCompile
+Creating configuration androidTestPublish
+Creating configuration androidTestProvided
+Creating configuration androidTestApi
+Creating configuration androidTestImplementation
+Creating configuration androidTestRuntimeOnly
+Creating configuration androidTestCompileOnly
+Creating configuration androidTestWearApp
+Creating configuration androidTestAnnotationProcessor
+Creating configuration testCompile
+Creating configuration testPublish
+Creating configuration testProvided
+Creating configuration testApi
+Creating configuration testImplementation
+Creating configuration testRuntimeOnly
+Creating configuration testCompileOnly
+Creating configuration testWearApp
+Creating configuration testAnnotationProcessor
+Creating configuration debugCompile
+Creating configuration debugPublish
+Creating configuration debugProvided
+Creating configuration debugApi
+Creating configuration debugImplementation
+Creating configuration debugRuntimeOnly
+Creating configuration debugCompileOnly
+Creating configuration debugWearApp
+Creating configuration debugAnnotationProcessor
+Creating configuration androidTestDebugCompile
+Creating configuration androidTestDebugPublish
+Creating configuration androidTestDebugProvided
+Creating configuration androidTestDebugApi
+Creating configuration androidTestDebugImplementation
+Creating configuration androidTestDebugRuntimeOnly
+Creating configuration androidTestDebugCompileOnly
+Creating configuration androidTestDebugWearApp
+Creating configuration androidTestDebugAnnotationProcessor
+Creating configuration testDebugCompile
+Creating configuration testDebugPublish
+Creating configuration testDebugProvided
+Creating configuration testDebugApi
+Creating configuration testDebugImplementation
+Creating configuration testDebugRuntimeOnly
+Creating configuration testDebugCompileOnly
+Creating configuration testDebugWearApp
+Creating configuration testDebugAnnotationProcessor
+Creating configuration releaseCompile
+Creating configuration releasePublish
+Creating configuration releaseProvided
+Creating configuration releaseApi
+Creating configuration releaseImplementation
+Creating configuration releaseRuntimeOnly
+Creating configuration releaseCompileOnly
+Creating configuration releaseWearApp
+Creating configuration releaseAnnotationProcessor
+Creating configuration testReleaseCompile
+Creating configuration testReleasePublish
+Creating configuration testReleaseProvided
+Creating configuration testReleaseApi
+Creating configuration testReleaseImplementation
+Creating configuration testReleaseRuntimeOnly
+Creating configuration testReleaseCompileOnly
+Creating configuration testReleaseWearApp
+Creating configuration testReleaseAnnotationProcessor
+Parsed shrinker version: 1.6.82
+All projects evaluated.
+Configuring Java sources compilation with source level 1.7 and target level 1.7.
+Configuring Java sources compilation with source level 1.7 and target level 1.7.
+Selected primary task 'assembleDebug' from project :
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Trying to locate CMake in local SDK repository.
+- CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+No CMake version was specified in build.gradle. Using default version 3.10.2.
+Invalidating in-memory cache of D:\Projects\Cocos\Fef\G\proj.android\.gradle\5.6.4\fileContent\annotation-processors.binTasks to be executed: [task ':G:copyDebugResourcesToAssets', task ':G:preBuild', task ':G:preDebugBuild', task ':libcocos2dx:preBuild', task ':libcocos2dx:preDebugBuild', task ':libcocos2dx:compileDebugAidl', task ':G:compileDebugAidl', task ':libcocos2dx:packageDebugRenderscript', task ':G:compileDebugRenderscript', task ':G:generateDebugBuildConfig', task ':libcocos2dx:compileDebugRenderscript', task ':libcocos2dx:generateDebugBuildConfig', task ':libcocos2dx:generateDebugResValues', task ':libcocos2dx:generateDebugResources', task ':libcocos2dx:packageDebugResources', task ':libcocos2dx:parseDebugLocalResources', task ':libcocos2dx:processDebugManifest', task ':libcocos2dx:generateDebugRFile', task ':libcocos2dx:javaPreCompileDebug', task ':libcocos2dx:compileDebugJavaWithJavac', task ':libcocos2dx:bundleLibCompileDebug', task ':G:javaPreCompileDebug', task ':G:mainApkListPersistenceDebug', task ':G:generateDebugResValues', task ':G:generateDebugResources', task ':G:mergeDebugResources', task ':G:createDebugCompatibleScreenManifests', task ':G:extractDeepLinksDebug', task ':libcocos2dx:extractDeepLinksDebug', task ':G:processDebugManifest', task ':libcocos2dx:compileDebugLibraryResources', task ':G:processDebugResources', task ':G:compileDebugJavaWithJavac', task ':G:generateJsonModelDebug', task ':libcocos2dx:mergeDebugJniLibFolders', task ':libcocos2dx:mergeDebugNativeLibs', task ':libcocos2dx:stripDebugDebugSymbols', task ':libcocos2dx:copyDebugJniLibsProjectOnly', task ':G:externalNativeBuildDebug', task ':G:compileDebugSources', task ':G:mergeDebugShaders', task ':G:compileDebugShaders', task ':G:generateDebugAssets', task ':libcocos2dx:mergeDebugShaders', task ':libcocos2dx:compileDebugShaders', task ':libcocos2dx:generateDebugAssets', task ':libcocos2dx:packageDebugAssets', task ':G:mergeDebugAssets', task ':G:processDebugJavaRes', task ':libcocos2dx:processDebugJavaRes', task ':libcocos2dx:bundleLibResDebug', task ':G:mergeDebugJavaResource', task ':libcocos2dx:bundleLibRuntimeDebug', task ':G:checkDebugDuplicateClasses', task ':G:dexBuilderDebug', task ':G:mergeExtDexDebug', task ':G:mergeDexDebug', task ':G:mergeDebugJniLibFolders', task ':G:mergeDebugNativeLibs', task ':G:stripDebugDebugSymbols', task ':G:validateSigningDebug', task ':G:packageDebug', task ':G:assembleDebug', task ':libcocos2dx:copyDebugJniLibsProjectAndLocalJars', task ':libcocos2dx:extractDebugAnnotations', task ':libcocos2dx:mergeDebugGeneratedProguardFiles', task ':libcocos2dx:mergeDebugConsumerProguardFiles', task ':libcocos2dx:prepareLintJarForPublish', task ':libcocos2dx:mergeDebugJavaResource', task ':libcocos2dx:syncDebugLibJars', task ':libcocos2dx:bundleDebugAar', task ':libcocos2dx:compileDebugSources', task ':libcocos2dx:assembleDebug']
+:G:copyDebugResourcesToAssets (Thread[Execution worker for ':',5,main]) started.
+:libcocos2dx:preBuild (Thread[Daemon worker Thread 3,5,main]) started.
+Invalidating in-memory cache of D:\Projects\Cocos\Fef\G\proj.android\.gradle\5.6.4\executionHistory\executionHistory.bin
+> Task :G:copyDebugResourcesToAssets UP-TO-DATE
+Task :G:copyDebugResourcesToAssets in G Starting
+Skipping task ':G:copyDebugResourcesToAssets' as it has no actions.
+Task :G:copyDebugResourcesToAssets in G Finished
+:G:copyDebugResourcesToAssets (Thread[Execution worker for ':',5,main]) completed. Took 0.002 secs.
+:G:preBuild (Thread[Execution worker for ':',5,main]) started.
+
+> Task :libcocos2dx:preBuild UP-TO-DATE
+Task :libcocos2dx:preBuild in G Starting
+Skipping task ':libcocos2dx:preBuild' as it has no actions.
+Task :libcocos2dx:preBuild in G Finished
+:libcocos2dx:preBuild (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.002 secs.
+:libcocos2dx:preDebugBuild (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :G:preBuild UP-TO-DATE
+Task :G:preBuild in G Starting
+Skipping task ':G:preBuild' as it has no actions.
+Task :G:preBuild in G Finished
+:G:preBuild (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:G:preDebugBuild (Thread[Execution worker for ':',5,main]) started.
+
+> Task :libcocos2dx:preDebugBuild UP-TO-DATE
+Task :libcocos2dx:preDebugBuild in G Starting
+Skipping task ':libcocos2dx:preDebugBuild' as it has no actions.
+Task :libcocos2dx:preDebugBuild in G Finished
+:libcocos2dx:preDebugBuild (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.0 secs.
+
+> Task :G:preDebugBuild UP-TO-DATE
+Task :G:preDebugBuild in G Starting
+Skipping task ':G:preDebugBuild' as it has no actions.
+Task :G:preDebugBuild in G Finished
+:G:preDebugBuild (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:libcocos2dx:compileDebugAidl (Thread[Daemon worker Thread 3,5,main]) started.
+:G:generateDebugBuildConfig (Thread[Execution worker for ':',5,main]) started.
+
+> Task :G:generateDebugBuildConfig
+Task :G:generateDebugBuildConfig in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\proj.android\app\build\generated\source\buildConfig\debug
+Caching disabled for task ':G:generateDebugBuildConfig' because:
+  Build cache is disabled
+Task ':G:generateDebugBuildConfig' is not up-to-date because:
+  No history is available.
+Task :G:generateDebugBuildConfig in G Finished
+:G:generateDebugBuildConfig (Thread[Execution worker for ':',5,main]) completed. Took 0.007 secs.
+:G:mainApkListPersistenceDebug (Thread[Execution worker for ':',5,main]) started.
+Starting process 'command 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\28.0.3\aidl.exe''. Working directory: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx Command: C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\28.0.3\aidl.exe -pC:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\framework.aidl -oD:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\aidl_source_output_dir\debug\out -ID:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\src\main\aidl -ID:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\src -ID:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\src\debug\aidl -dC:\Users\Admin\AppData\Local\Temp\aidl8803957781784747272.d D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\src\com\enhance\gameservice\IGameTuningService.aidl
+
+> Task :G:mainApkListPersistenceDebug
+Task :G:mainApkListPersistenceDebug in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\proj.android\app\build\intermediates\apk_list\debug\apk-list.gson
+Caching disabled for task ':G:mainApkListPersistenceDebug' because:
+  Build cache is disabled
+Task ':G:mainApkListPersistenceDebug' is not up-to-date because:
+  No history is available.
+Task :G:mainApkListPersistenceDebug in G Finished
+:G:mainApkListPersistenceDebug (Thread[Execution worker for ':',5,main]) completed. Took 0.004 secs.
+Successfully started process 'command 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\28.0.3\aidl.exe''
+:G:generateDebugResValues (Thread[Execution worker for ':',5,main]) started.
+
+> Task :G:generateDebugResValues
+Task :G:generateDebugResValues in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\proj.android\app\build\generated\res\resValues\debug
+Caching disabled for task ':G:generateDebugResValues' because:
+  Build cache is disabled
+Task ':G:generateDebugResValues' is not up-to-date because:
+  No history is available.
+Task :G:generateDebugResValues in G Finished
+:G:generateDebugResValues (Thread[Execution worker for ':',5,main]) completed. Took 0.002 secs.
+:G:createDebugCompatibleScreenManifests (Thread[Execution worker for ':',5,main]) started.
+
+> Task :G:createDebugCompatibleScreenManifests
+Task :G:createDebugCompatibleScreenManifests in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\proj.android\app\build\intermediates\compatible_screen_manifest\debug\out
+Caching disabled for task ':G:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+Task ':G:createDebugCompatibleScreenManifests' is not up-to-date because:
+  No history is available.
+Task :G:createDebugCompatibleScreenManifests in G Finished
+:G:createDebugCompatibleScreenManifests (Thread[Execution worker for ':',5,main]) completed. Took 0.005 secs.
+:G:extractDeepLinksDebug (Thread[Execution worker for ':',5,main]) started.
+
+> Task :G:extractDeepLinksDebug
+Task :G:extractDeepLinksDebug in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\proj.android\app\build\intermediates\navigation_json\debug\navigation.json
+Caching disabled for task ':G:extractDeepLinksDebug' because:
+  Build cache is disabled
+Task ':G:extractDeepLinksDebug' is not up-to-date because:
+  No history is available.
+Task :G:extractDeepLinksDebug in G Finished
+:G:extractDeepLinksDebug (Thread[Execution worker for ':',5,main]) completed. Took 0.003 secs.
+:G:generateJsonModelDebug (Thread[Execution worker for ':',5,main]) started.
+
+> Task :libcocos2dx:compileDebugAidl
+Task :libcocos2dx:compileDebugAidl in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\aidl_parcelable\debug\out
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\aidl_source_output_dir\debug\out
+Caching disabled for task ':libcocos2dx:compileDebugAidl' because:
+  Build cache is disabled
+Task ':libcocos2dx:compileDebugAidl' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:compileDebugAidl in G Finished
+:libcocos2dx:compileDebugAidl (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.063 secs.
+:libcocos2dx:packageDebugRenderscript (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:packageDebugRenderscript NO-SOURCE
+Task :libcocos2dx:packageDebugRenderscript in G Starting
+Skipping task ':libcocos2dx:packageDebugRenderscript' as it has no source files and no previous output files.
+Task :libcocos2dx:packageDebugRenderscript in G Finished
+:libcocos2dx:packageDebugRenderscript (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.001 secs.
+:libcocos2dx:compileDebugRenderscript (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:compileDebugRenderscript NO-SOURCE
+Task :libcocos2dx:compileDebugRenderscript in G Starting
+Skipping task ':libcocos2dx:compileDebugRenderscript' as it has no source files and no previous output files.
+Task :libcocos2dx:compileDebugRenderscript in G Finished
+:libcocos2dx:compileDebugRenderscript (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.002 secs.
+:libcocos2dx:generateDebugBuildConfig (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:generateDebugBuildConfig
+Task :libcocos2dx:generateDebugBuildConfig in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\source\buildConfig\debug
+Caching disabled for task ':libcocos2dx:generateDebugBuildConfig' because:
+  Build cache is disabled
+Task ':libcocos2dx:generateDebugBuildConfig' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:generateDebugBuildConfig in G Finished
+:libcocos2dx:generateDebugBuildConfig (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.005 secs.
+:libcocos2dx:generateDebugResValues (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:generateDebugResValues
+Task :libcocos2dx:generateDebugResValues in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\res\resValues\debug
+Caching disabled for task ':libcocos2dx:generateDebugResValues' because:
+  Build cache is disabled
+Task ':libcocos2dx:generateDebugResValues' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:generateDebugResValues in G Finished
+:libcocos2dx:generateDebugResValues (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.001 secs.
+:libcocos2dx:generateDebugResources (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:generateDebugResources
+Task :libcocos2dx:generateDebugResources in G Starting
+Skipping task ':libcocos2dx:generateDebugResources' as it has no actions.
+Task :libcocos2dx:generateDebugResources in G Finished
+:libcocos2dx:generateDebugResources (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.0 secs.
+:libcocos2dx:packageDebugResources (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :libcocos2dx:packageDebugResources
+Task :libcocos2dx:packageDebugResources in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\packageDebugResources
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\data_binding_layout_info_type_package\debug\out
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\res\pngs\debug
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\packaged_res\debug
+Caching disabled for task ':libcocos2dx:packageDebugResources' because:
+  Build cache is disabled
+Task ':libcocos2dx:packageDebugResources' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:packageDebugResources'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:packageDebugResources in G Finished
+:libcocos2dx:packageDebugResources (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.013 secs.
+:libcocos2dx:parseDebugLocalResources (Thread[Daemon worker Thread 3,5,main]) started.
+:libcocos2dx:processDebugManifest (Thread[Execution worker for ':' Thread 2,5,main]) started.
+:libcocos2dx:javaPreCompileDebug (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:processDebugManifest
+Task :libcocos2dx:processDebugManifest in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\aapt_friendly_merged_manifests\debug\aapt
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\outputs\logs\manifest-merger-debug-report.txt
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_manifest\debug\AndroidManifest.xml
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\manifest_merge_blame_file\debug\manifest-merger-blame-debug-report.txt
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\merged_manifests\debug
+Caching disabled for task ':libcocos2dx:processDebugManifest' because:
+  Build cache is disabled
+Task ':libcocos2dx:processDebugManifest' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:processDebugManifest'.
+Unable do incremental execution: full task run
+Merging main manifest D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\AndroidManifest.xml
+
+Merging result: SUCCESS
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.cocos2dx.lib"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\AndroidManifest.xml:3:5-66
+11-->D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\AndroidManifest.xml:3:22-63
+12
+13</manifest>
+
+Merged manifest saved to D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_manifest\debug\AndroidManifest.xml
+Task :libcocos2dx:processDebugManifest in G Finished
+:libcocos2dx:processDebugManifest (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.074 secs.
+:libcocos2dx:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :libcocos2dx:extractDeepLinksDebug
+Task :libcocos2dx:extractDeepLinksDebug in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\navigation_json\debug\navigation.json
+Caching disabled for task ':libcocos2dx:extractDeepLinksDebug' because:
+  Build cache is disabled
+Task ':libcocos2dx:extractDeepLinksDebug' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:extractDeepLinksDebug in G Finished
+:libcocos2dx:extractDeepLinksDebug (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 0.003 secs.
+:libcocos2dx:compileDebugLibraryResources (Thread[Execution worker for ':' Thread 2,5,main]) started.
+
+> Task :libcocos2dx:javaPreCompileDebug
+Task :libcocos2dx:javaPreCompileDebug in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\annotation_processor_list\debug\annotationProcessors.json
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Caching disabled for IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar as it is up-to-date.
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Caching disabled for IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar as it is up-to-date.
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Caching disabled for IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar because:
+  Build cache is disabled
+Skipping IdentityTransform: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar as it is up-to-date.
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Caching disabled for task ':libcocos2dx:javaPreCompileDebug' because:
+  Build cache is disabled
+Task ':libcocos2dx:javaPreCompileDebug' is not up-to-date because:
+  No history is available.
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Task :libcocos2dx:javaPreCompileDebug in G Finished
+:libcocos2dx:javaPreCompileDebug (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.087 secs.
+:libcocos2dx:mergeDebugJniLibFolders (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:mergeDebugJniLibFolders
+Task :libcocos2dx:mergeDebugJniLibFolders in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\mergeDebugJniLibFolders
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\merged_jni_libs\debug\out
+Caching disabled for task ':libcocos2dx:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+Task ':libcocos2dx:mergeDebugJniLibFolders' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:mergeDebugJniLibFolders'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:mergeDebugJniLibFolders in G Finished
+:libcocos2dx:mergeDebugJniLibFolders (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.003 secs.
+:libcocos2dx:mergeDebugNativeLibs (Thread[Execution worker for ':' Thread 5,5,main]) started.
+:libcocos2dx:mergeDebugShaders (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:mergeDebugShaders
+Task :libcocos2dx:mergeDebugShaders in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\mergeDebugShaders
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\merged_shaders\debug\out
+Caching disabled for task ':libcocos2dx:mergeDebugShaders' because:
+  Build cache is disabled
+Task ':libcocos2dx:mergeDebugShaders' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:mergeDebugShaders'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:mergeDebugShaders in G Finished
+:libcocos2dx:mergeDebugShaders (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.006 secs.
+:libcocos2dx:compileDebugShaders (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:compileDebugShaders
+Task :libcocos2dx:compileDebugShaders in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\shader_assets\debug\out
+Caching disabled for task ':libcocos2dx:compileDebugShaders' because:
+  Build cache is disabled
+Task ':libcocos2dx:compileDebugShaders' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:compileDebugShaders in G Finished
+:libcocos2dx:compileDebugShaders (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.006 secs.
+:libcocos2dx:generateDebugAssets (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:generateDebugAssets
+Task :libcocos2dx:generateDebugAssets in G Starting
+Skipping task ':libcocos2dx:generateDebugAssets' as it has no actions.
+Task :libcocos2dx:generateDebugAssets in G Finished
+:libcocos2dx:generateDebugAssets (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.0 secs.
+:libcocos2dx:packageDebugAssets (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:packageDebugAssets
+Task :libcocos2dx:packageDebugAssets in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\packageDebugAssets
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_assets\debug\out
+Caching disabled for task ':libcocos2dx:packageDebugAssets' because:
+  Build cache is disabled
+Task ':libcocos2dx:packageDebugAssets' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:packageDebugAssets'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:packageDebugAssets in G Finished
+:libcocos2dx:packageDebugAssets (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.005 secs.
+:libcocos2dx:processDebugJavaRes (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:processDebugJavaRes NO-SOURCE
+Task :libcocos2dx:processDebugJavaRes in G Starting
+Skipping task ':libcocos2dx:processDebugJavaRes' as it has no source files and no previous output files.
+Task :libcocos2dx:processDebugJavaRes in G Finished
+:libcocos2dx:processDebugJavaRes (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 0.001 secs.
+:libcocos2dx:bundleLibResDebug (Thread[Execution worker for ':' Thread 3,5,main]) started.
+
+> Task :libcocos2dx:parseDebugLocalResources
+Task :libcocos2dx:parseDebugLocalResources in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\local_only_symbol_list\debug\R-def.txt
+Transforming file C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar with PlatformAttrTransform
+Caching disabled for PlatformAttrTransform: C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar because:
+  Build cache is disabled
+Skipping PlatformAttrTransform: C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar as it is up-to-date.
+Caching disabled for task ':libcocos2dx:parseDebugLocalResources' because:
+  Build cache is disabled
+Task ':libcocos2dx:parseDebugLocalResources' is not up-to-date because:
+  No history is available.
+Transforming file C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar with PlatformAttrTransform
+Task :libcocos2dx:parseDebugLocalResources in G Finished
+:libcocos2dx:parseDebugLocalResources (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.247 secs.
+:libcocos2dx:generateDebugRFile (Thread[Daemon worker Thread 3,5,main]) started.
+:libcocos2dx:prepareLintJarForPublish (Thread[Execution worker for ':' Thread 4,5,main]) started.
+
+> Task :libcocos2dx:mergeDebugNativeLibs
+Task :libcocos2dx:mergeDebugNativeLibs in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\debug-mergeNativeLibs\zip-cache
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\merged_native_libs\debug\out
+Caching disabled for task ':libcocos2dx:mergeDebugNativeLibs' because:
+  Build cache is disabled
+Task ':libcocos2dx:mergeDebugNativeLibs' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:mergeDebugNativeLibs'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:mergeDebugNativeLibs in G Finished
+:libcocos2dx:mergeDebugNativeLibs (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.063 secs.
+:libcocos2dx:stripDebugDebugSymbols (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:stripDebugDebugSymbols
+Task :libcocos2dx:stripDebugDebugSymbols in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\stripped_native_libs\debug\out
+Caching disabled for task ':libcocos2dx:stripDebugDebugSymbols' because:
+  Build cache is disabled
+Task ':libcocos2dx:stripDebugDebugSymbols' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:stripDebugDebugSymbols'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:stripDebugDebugSymbols in G Finished
+:libcocos2dx:stripDebugDebugSymbols (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.004 secs.
+:libcocos2dx:copyDebugJniLibsProjectOnly (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:copyDebugJniLibsProjectOnly
+Task :libcocos2dx:copyDebugJniLibsProjectOnly in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_jni\debug\jni
+Caching disabled for task ':libcocos2dx:copyDebugJniLibsProjectOnly' because:
+  Build cache is disabled
+Task ':libcocos2dx:copyDebugJniLibsProjectOnly' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:copyDebugJniLibsProjectOnly in G Finished
+:libcocos2dx:copyDebugJniLibsProjectOnly (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.005 secs.
+:libcocos2dx:copyDebugJniLibsProjectAndLocalJars (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:copyDebugJniLibsProjectAndLocalJars
+Task :libcocos2dx:copyDebugJniLibsProjectAndLocalJars in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_and_local_jars_jni\debug\jni
+Caching disabled for task ':libcocos2dx:copyDebugJniLibsProjectAndLocalJars' because:
+  Build cache is disabled
+Task ':libcocos2dx:copyDebugJniLibsProjectAndLocalJars' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:copyDebugJniLibsProjectAndLocalJars in G Finished
+:libcocos2dx:copyDebugJniLibsProjectAndLocalJars (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 0.005 secs.
+:libcocos2dx:mergeDebugJavaResource (Thread[Execution worker for ':' Thread 5,5,main]) started.
+
+> Task :libcocos2dx:generateDebugRFile
+Task :libcocos2dx:generateDebugRFile in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\symbol_list_with_package_name\debug\package-aware-r.txt
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\compile_symbol_list\debug\R.txt
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\compile_only_not_namespaced_r_class_jar\debug\R.jar
+Transforming file C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar with PlatformAttrTransform
+Caching disabled for task ':libcocos2dx:generateDebugRFile' because:
+  Build cache is disabled
+Task ':libcocos2dx:generateDebugRFile' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:generateDebugRFile'.
+Unable do incremental execution: full task run
+Transforming file C:\Users\Admin\AppData\Local\Android\Sdk\platforms\android-28\android.jar with PlatformAttrTransform
+Task :libcocos2dx:generateDebugRFile in G Finished
+:libcocos2dx:generateDebugRFile (Thread[Daemon worker Thread 3,5,main]) completed. Took 0.051 secs.
+:libcocos2dx:compileDebugJavaWithJavac (Thread[Daemon worker Thread 3,5,main]) started.
+
+> Task :G:generateJsonModelDebug FAILED
+Task :G:generateJsonModelDebug in G Starting
+Caching disabled for task ':G:generateJsonModelDebug' because:
+  Build cache is disabled
+Task ':G:generateJsonModelDebug' is not up-to-date because:
+  No history is available.
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : No CMake version was specified in build.gradle. Using default version 3.10.2.
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : Trying to locate CMake in local SDK repository.
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : - CMake found in SDK at 'C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404' had version '3.10.2'
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : CMake '3.18.1' found in SDK did not match requested version '3.10.2'.
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : CMake '3.22.1' found in SDK did not match requested version '3.10.2'.
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : rebuilding JSON D:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a\android_gradle_build.json due to:
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : - expected json D:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a\android_gradle_build.json file is not present, will remove stale json folder
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : - missing previous command file D:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a\build_command.txt, will remove stale json folder
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : - command changed from previous, will remove stale json folder
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : removing stale contents from 'D:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a'
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : created folder 'D:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a'
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : executing cmake Executable : C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments :
+-HD:\Projects\Cocos\Fef\G
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions -fsigned-char
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e
+-DANDROID_PLATFORM=android-16
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Projects\Cocos\Fef\G\proj.android\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=16
+-DANDROID_STL=c++_static
+-DANDROID_TOOLCHAIN=clang
+-DANDROID_ARM_NEON=TRUE
+-BD:\Projects\Cocos\Fef\G\proj.android\app\.cxx\cmake\debug\armeabi-v7a
+-GNinja
+jvmArgs :
+
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a :
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : [== "CMake Server" ==[
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : ]== "CMake Server" ==]
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/Projects/Cocos/Fef/G",
+  "buildDirectory": "D:/Projects/Cocos/Fef/G/proj.android/app/.cxx/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions -fsigned-char",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\Admin\\Downloads\\VS2022_1\\Installer\\AndroidNDK_R21E,version\u003d21.4,chip\u003dx64\\android-ndk-r21e-windows-x86_64\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003dC:\\Users\\Admin\\Downloads\\VS2022_1\\Installer\\AndroidNDK_R21E,version\u003d21.4,chip\u003dx64\\android-ndk-r21e-windows-x86_64\\android-ndk-r21e",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\Admin\\Downloads\\VS2022_1\\Installer\\AndroidNDK_R21E,version\u003d21.4,chip\u003dx64\\android-ndk-r21e-windows-x86_64\\android-ndk-r21e",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Projects\\Cocos\\Fef\\G\\proj.android\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DANDROID_STL\u003dc++_static",
+    "-DANDROID_TOOLCHAIN\u003dclang",
+    "-DANDROID_ARM_NEON\u003dTRUE"
+  ]
+}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : Check for working C compiler: C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- broken","type":"message"}
+
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : Check for working C compiler: C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- broken
+D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : {"cookie":"","inReplyTo":"configure","message":"CMake Error at C:/Users/Admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):\n  The C compiler\n\n    \"C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: D:/Projects/Cocos/Fef/G/proj.android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp\n    \n    Run Build Command:\"C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe\" \"cmTC_b5055\"\n    [1/2] Building C object CMakeFiles/cmTC_b5055.dir/testCCompiler.c.o\r\n    [2/2] Linking C executable cmTC_b5055\r\n    FAILED: cmTC_b5055 \r\n    cmd.exe /C \"cd . && C:\\Users\\Admin\\Downloads\\VS2022_1\\Installer\\AndroidNDK_R21E,version=21.4,chip=x64\\android-ndk-r21e-windows-x86_64\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_b5055.dir/testCCompiler.c.o  -o cmTC_b5055  -latomic -lm && cd .\"\r\n    \"C:\\Users\\Admin\\Downloads\\VS2022_1\\Installer\\AndroidNDK_R21E\" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣\r\n    ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.\r\n    ninja: build stopped: subcommand failed.\r\n    \n\n  \n\n  CMake will not be able to correctly generate this project.\nCall Stack (most recent call first):\n  CMakeLists.txt:30 (project)\n\n","title":"Error","type":"message"}
+
+Task :G:generateJsonModelDebug in G Finished
+:G:generateJsonModelDebug (Thread[Execution worker for ':',5,main]) completed. Took 0.518 secs.
+
+> Task :libcocos2dx:compileDebugLibraryResources
+Task :libcocos2dx:compileDebugLibraryResources in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\compiled_local_resources\debug\out
+Caching disabled for task ':libcocos2dx:compileDebugLibraryResources' because:
+  Build cache is disabled
+Task ':libcocos2dx:compileDebugLibraryResources' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:compileDebugLibraryResources'.
+Transforming artifact aapt2-windows.jar (com.android.tools.build:aapt2:3.6.3-6040484) with Aapt2Extractor
+Caching disabled for Aapt2Extractor: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.android.tools.build\aapt2\3.6.3-6040484\46b6e070dcf61fcd38378c12f1d6b5f66072f8cb\aapt2-3.6.3-6040484-windows.jar because:
+  Build cache is disabled
+Skipping Aapt2Extractor: C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.android.tools.build\aapt2\3.6.3-6040484\46b6e070dcf61fcd38378c12f1d6b5f66072f8cb\aapt2-3.6.3-6040484-windows.jar as it is up-to-date.
+
+> Task :libcocos2dx:compileDebugJavaWithJavac
+Task :libcocos2dx:compileDebugJavaWithJavac in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\ap_generated_sources\debug\out
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\javac\debug\classes
+file or directory 'D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\src\main\java', not found
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Caching disabled for task ':libcocos2dx:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Task ':libcocos2dx:compileDebugJavaWithJavac' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:compileDebugJavaWithJavac'.
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\android-async-http-1.4.9.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\com.android.vending.expansion.zipfile.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Transforming file D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\java\libs\httpclient-4.4.1.1.jar with IdentityTransform
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+file or directory 'D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\src\main\java', not found
+file or directory 'D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\src\debug\java', not found
+file or directory 'D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\generated\renderscript_source_output_dir\debug\out', not found
+Compiling with JDK Java compiler API.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Created classpath snapshot for incremental compilation in 0.246 secs.
+Task :libcocos2dx:compileDebugJavaWithJavac in G Finished
+:libcocos2dx:compileDebugJavaWithJavac (Thread[Daemon worker Thread 3,5,main]) completed. Took 1.984 secs.
+
+> Task :libcocos2dx:prepareLintJarForPublish
+Task :libcocos2dx:prepareLintJarForPublish in G Starting
+Caching disabled for task ':libcocos2dx:prepareLintJarForPublish' because:
+  Build cache is disabled
+Task ':libcocos2dx:prepareLintJarForPublish' is not up-to-date because:
+  No history is available.
+Task :libcocos2dx:prepareLintJarForPublish in G Finished
+:libcocos2dx:prepareLintJarForPublish (Thread[Execution worker for ':' Thread 4,5,main]) completed. Took 2.026 secs.
+
+> Task :libcocos2dx:bundleLibResDebug
+Task :libcocos2dx:bundleLibResDebug in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\library_java_res\debug\res.jar
+Caching disabled for task ':libcocos2dx:bundleLibResDebug' because:
+  Build cache is disabled
+Task ':libcocos2dx:bundleLibResDebug' is not up-to-date because:
+  No history is available.
+
+> Task :libcocos2dx:mergeDebugJavaResource
+Task :libcocos2dx:mergeDebugJavaResource in G Starting
+Deleting stale output file: D:\Projects\Cocos\Fef\G\cocos2d\cocos\platform\android\libcocos2dx\build\intermediates\incremental\debug-mergeJavaRes\zip-cache
+Caching disabled for task ':libcocos2dx:mergeDebugJavaResource' because:
+  Build cache is disabled
+Task ':libcocos2dx:mergeDebugJavaResource' is not up-to-date because:
+  No history is available.
+All input files are considered out-of-date for incremental task ':libcocos2dx:mergeDebugJavaResource'.
+Unable do incremental execution: full task run
+Task :libcocos2dx:mergeDebugJavaResource in G Finished
+:libcocos2dx:mergeDebugJavaResource (Thread[Execution worker for ':' Thread 5,5,main]) completed. Took 2.04 secs.
+
+> Task :libcocos2dx:compileDebugLibraryResources
+Task :libcocos2dx:compileDebugLibraryResources in G Finished
+:libcocos2dx:compileDebugLibraryResources (Thread[Execution worker for ':' Thread 2,5,main]) completed. Took 2.141 secs.
+> Task :libcocos2dx:bundleLibResDebug
+Task :libcocos2dx:bundleLibResDebug in G Finished
+:libcocos2dx:bundleLibResDebug (Thread[Execution worker for ':' Thread 3,5,main]) completed. Took 2.098 secs.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':G:generateJsonModelDebug'.
+> D:\Projects\Cocos\Fef\G\CMakeLists.txt : C/C++ debug|armeabi-v7a : CMake Error at C:/Users/Admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+    The C compiler
+
+      "C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe"
+
+    is not able to compile a simple test program.
+
+    It fails with the following output:
+
+      Change Dir: D:/Projects/Cocos/Fef/G/proj.android/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+
+      Run Build Command:"C:\Users\Admin\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b5055"
+      [1/2] Building C object CMakeFiles/cmTC_b5055.dir/testCCompiler.c.o
+      [2/2] Linking C executable cmTC_b5055
+      FAILED: cmTC_b5055
+      cmd.exe /C "cd . && C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E,version=21.4,chip=x64\android-ndk-r21e-windows-x86_64\android-ndk-r21e\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Admin/Downloads/VS2022_1/Installer/AndroidNDK_R21E,version=21.4,chip=x64/android-ndk-r21e-windows-x86_64/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_b5055.dir/testCCompiler.c.o  -o cmTC_b5055  -latomic -lm && cd ."
+      "C:\Users\Admin\Downloads\VS2022_1\Installer\AndroidNDK_R21E" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+      ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+      ninja: build stopped: subcommand failed.
+
+
+
+
+    CMake will not be able to correctly generate this project.
+  Call Stack (most recent call first):
+    CMakeLists.txt:30 (project)
+
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+28 actionable tasks: 28 executed
+Error running command, return code: 1.
+D:\Projects\Cocos\Fef\G>
+
+Помогите, уже 8 часов долблюсь...
